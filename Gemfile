@@ -43,6 +43,9 @@ gem 'coffee-script-source', '1.8.0'
 #Way better than WeBrick
 gem 'thin'
 
+# date stamp
+gem 'stamp', '~> 0.6.0'
+
 group :development, :test do 
   gem 'quiet_assets'
   
