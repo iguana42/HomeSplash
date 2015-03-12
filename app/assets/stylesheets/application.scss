@@ -18,12 +18,22 @@
 html {
   font-family: Georgia, Arial;
   font-size: 20px;
-  background-color: #EEEEFF;
+  color: white;
 }
 
 body {
+  background: image-url("daredevil.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;  
+  background-size: cover;
+
   padding: 0;
   margin: 0;
+}
+
+.shadowed {
+  text-shadow: 2px 2px 0 #000;
 }
 
 div#footer {
