@@ -12,6 +12,7 @@
  *
  *= require_tree .
  *= require_self
+ *= require font-awesome
  */
 
 html {
@@ -34,4 +35,9 @@ div#footer {
   height: 2em;
   padding-top: 1em;
   color: white;
+}
+
+#footer a {
+  color: white;
+  text-decoration: none;
 }

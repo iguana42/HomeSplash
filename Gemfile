@@ -46,6 +46,9 @@ gem 'thin'
 # date stamp
 gem 'stamp', '~> 0.6.0'
 
+# adding awesome icon fonts
+gem "font-awesome-rails"
+
 group :development, :test do 
   gem 'quiet_assets'
   
