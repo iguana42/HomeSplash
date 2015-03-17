@@ -49,6 +49,9 @@ gem 'stamp', '~> 0.6.0'
 # adding awesome icon fonts
 gem "font-awesome-rails"
 
+# Beautiful printing
+gem 'awesome_print'
+
 group :development, :test do 
   gem 'quiet_assets'
   
